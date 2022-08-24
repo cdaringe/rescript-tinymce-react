@@ -1,5 +1,5 @@
 name: main
-'on':
+"on":
   push:
     branches:
       - main
@@ -14,13 +14,18 @@ jobs:
     needs:
       - checks
     steps:
-      - name: semantic-release
-        env:
-          GITHUB_TOKEN: '${{ secrets.GITHUB_TOKEN }}'
-          NPM_TOKEN: '${{ secrets.NPM_TOKEN }}'
-        run: >-
-          npm init -y && npm install -D   "semantic-release"  
-          "@semantic-release/commit-analyzer"  
-          "@semantic-release/release-notes-generator"  
-          "@semantic-release/github"   "@semantic-release/git"  
-          "@semantic-release/exec" && ./node_modules/.bin/semantic-release
+      - uses: actions/checkout@v3
+      - name: setup-node
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18
+      # - name: semantic-release
+      #   env:
+      #     GITHUB_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
+      #     NPM_TOKEN: "${{ secrets.NPM_TOKEN }}"
+      #   run: >-
+      #     npm install -D   "semantic-release"
+      #     "@semantic-release/commit-analyzer"
+      #     "@semantic-release/release-notes-generator"
+      #     "@semantic-release/github"   "@semantic-release/git"
+      #     "@semantic-release/exec" && ./node_modules/.bin/semantic-release

@@ -1,0 +1,32 @@
+{
+  "name": "libname",
+  "version": "0.0.1",
+  "sources": [
+    {
+      "dir": "src",
+      "subdirs": true
+    },
+    {
+      "dir": "__tests__",
+      "type": "dev"
+    }
+  ],
+  "package-specs": {
+    "module": "commonjs"
+  },
+  "suffix": ".bs.js",
+  "reason": {
+    "react-jsx": 3
+  },
+  "bs-dependencies": ["@rescript/react"],
+  "bs-dev-dependencies": [
+    "@glennsl/bs-jest",
+    "bs-jest-dom",
+    "rescript-dom-testing-library",
+    "rescript-react-testing-library"
+  ],
+  "ppx-flags": [],
+  "warnings": {
+    "error": "+101"
+  }
+}

@@ -20,7 +20,7 @@
     "@tinymce/tinymce-react": "^4"
   },
   "devDependencies": {
-    "@glennsl/bs-jest": "0.5.1",
+    "@glennsl/bs-jest": "0.7.0",
     "@rescript/react": "0.10.3",
     "@testing-library/react": "13.3.0",
     "@tinymce/tinymce-react": "4.2.0",

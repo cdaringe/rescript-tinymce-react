@@ -1,11 +1,11 @@
-# rescript-mce
+# rescript-tinymce-react
 
-rescript lang bindings to [tinymce](https://www.npmjs.com/package/tinymce).
+rescript lang react bindings to [tinymce](https://www.npmjs.com/package/tinymce).
 
 ## usage
 
 ```res
-TinyMCE.init()
+<TinyMce.Editor />
 ```
 
 ## installation

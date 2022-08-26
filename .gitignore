@@ -3,3 +3,7 @@
 lib
 node_modules
 coverage
+dist
+.parcel-cache
+*.js
+!.*.js

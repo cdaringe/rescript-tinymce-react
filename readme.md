@@ -10,6 +10,8 @@ rescript lang react bindings to [tinymce](https://www.npmjs.com/package/tinymce)
 <TinyMce.Editor />
 ```
 
+See `src/TinyMCEReact.rs`
+
 ## installation
 
-`npm install --save rescript-tinymce`
+`npm install --save rescript-tinymce-react`

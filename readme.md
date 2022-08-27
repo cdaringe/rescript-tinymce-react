@@ -4,6 +4,8 @@
 
 rescript lang react bindings to [tinymce](https://www.npmjs.com/package/tinymce).
 
+![rescript tinymce react demo](./img/demo.png)
+
 ## usage
 
 ```res

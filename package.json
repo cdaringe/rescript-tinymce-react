@@ -4,6 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "assert-no-diff": "git diff-index --exit-code HEAD",
+    "format": "rescript format",
     "build": "rescript build -with-deps",
     "dev": "rescript build -w",
     "demo": "parcel demo/index.html",

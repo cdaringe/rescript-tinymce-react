@@ -4,9 +4,8 @@ outputs: {}
 
 runs:
   using: checks
-  check:
-    name: checks
-    runs-on: ubuntu-latest
-    steps:
-      - run: pnpm format
-      - run: pnpm test
+  steps:
+    - name: format
+      run: pnpm format && pnpm assert-no-diff
+    - name: test
+      run: pnpm test

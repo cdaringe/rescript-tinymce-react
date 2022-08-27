@@ -25,6 +25,7 @@
   "devDependencies": {
     "@glennsl/bs-jest": "0.5.1",
     "@rescript/react": "0.10.3",
+    "@semantic-release/npm": "9.0.1",
     "@testing-library/react": "13.3.0",
     "@tinymce/tinymce-react": "4.2.0",
     "bs-jest-dom": "4.1.1",

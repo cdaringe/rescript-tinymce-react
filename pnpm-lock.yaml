@@ -3,6 +3,7 @@ lockfileVersion: 5.4
 specifiers:
   '@glennsl/bs-jest': 0.5.1
   '@rescript/react': 0.10.3
+  '@semantic-release/npm': 9.0.1
   '@testing-library/react': 13.3.0
   '@tinymce/tinymce-react': 4.2.0
   bs-jest-dom: 4.1.1
@@ -22,6 +23,7 @@ specifiers:
 devDependencies:
   '@glennsl/bs-jest': 0.5.1
   '@rescript/react': 0.10.3_biqbaboplfbrettd7655fr4n2y
+  '@semantic-release/npm': 9.0.1_semantic-release@19.0.5
   '@testing-library/react': 13.3.0_biqbaboplfbrettd7655fr4n2y
   '@tinymce/tinymce-react': 4.2.0_biqbaboplfbrettd7655fr4n2y
   bs-jest-dom: 4.1.1_@glennsl+bs-jest@0.5.1

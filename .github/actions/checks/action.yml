@@ -6,6 +6,8 @@ runs:
   using: composite
   steps:
     - name: format
+      shell: bash
       run: pnpm format && pnpm assert-no-diff
     - name: test
+      shell: bash
       run: pnpm test

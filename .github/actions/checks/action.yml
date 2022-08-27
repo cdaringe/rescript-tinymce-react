@@ -3,7 +3,6 @@ description: "checks"
 outputs: {}
 
 runs:
-  using: checks
   steps:
     - name: format
       run: pnpm format && pnpm assert-no-diff

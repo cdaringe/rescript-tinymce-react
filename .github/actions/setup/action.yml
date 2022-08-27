@@ -3,7 +3,6 @@ description: "setup"
 outputs: {}
 
 runs:
-  using: setup
   steps:
     - uses: actions/checkout@v3
     - name: setup-node

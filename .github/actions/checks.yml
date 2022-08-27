@@ -1,0 +1,12 @@
+name: "checks"
+description: "checks"
+outputs: {}
+
+runs:
+  using: checks
+  check:
+    name: checks
+    runs-on: ubuntu-latest
+    steps:
+      - run: pnpm format
+      - run: pnpm test

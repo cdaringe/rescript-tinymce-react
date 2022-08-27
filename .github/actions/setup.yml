@@ -1,7 +1,9 @@
-name: setup
-"on":
-  - workflow_call
-jobs:
+name: "setup"
+description: "setup"
+outputs: {}
+
+runs:
+  using: setup
   check:
     name: setup
     runs-on: ubuntu-latest

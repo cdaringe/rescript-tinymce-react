@@ -2,7 +2,10 @@
   "name": "rescript-tinymce-react",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "src/TinyCEReact.js",
+  "files": [
+    "src"
+  ],
   "scripts": {
     "assert-no-diff": "git diff-index --exit-code HEAD",
     "format": "rescript format",

@@ -19,7 +19,7 @@
   "author": "cdaringe",
   "license": "MIT",
   "peerDependencies": {
-    "@rescript/react": "^9",
+    "@rescript/react": "^0.11.0-alpha",
     "@tinymce/tinymce-react": "^4"
   },
   "devDependencies": {

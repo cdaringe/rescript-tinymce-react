@@ -22,7 +22,7 @@
   "author": "cdaringe",
   "license": "MIT",
   "peerDependencies": {
-    "@rescript/react": "^9",
+    "@rescript/react": "*",
     "@tinymce/tinymce-react": "^4"
   },
   "devDependencies": {

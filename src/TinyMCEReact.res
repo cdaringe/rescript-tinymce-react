@@ -1,5 +1,3 @@
-type editor
-
 // @deriving(abstract)
 // type textpattern = {
 //   start: string,
@@ -10,20 +8,24 @@ type editor
 
 @deriving(abstract)
 type initConfig = {
+  @optional branding: bool,
   @optional height: int,
   @optional menubar: bool,
   @optional plugins: array<string>,
   @optional toolbar: string,
+  @optional statusbar: bool,
   // @optional textpattern_patterns: array<textpattern>,
   @optional content_style: string,
 }
 
 module Editor = {
+  type t
+  @send external getContent: t => string = "getContent"
   // https://www.tiny.cloud/docs/tinymce/6/react-pm-bundle/
   @module("@tinymce/tinymce-react") @react.component
   external make: (
     ~apiKey: string=?,
-    ~onInit: (unit, editor) => unit=?,
+    ~onInit: (unit, t) => unit=?,
     ~initialValue: string=?,
     ~init: initConfig=?,
     ~tinymceScriptSrc: string=?,

@@ -4,7 +4,8 @@
   "description": "",
   "main": "src/TinyCEReact.js",
   "files": [
-    "src"
+    "src",
+    "bsconfig.json"
   ],
   "scripts": {
     "assert-no-diff": "git diff-index --exit-code HEAD",

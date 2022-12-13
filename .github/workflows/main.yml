@@ -8,7 +8,7 @@ jobs:
     name: main
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2.5.0 # Necessary to access local action
+      - uses: actions/checkout@v2.6.0 # Necessary to access local action
       - name: setup
         id: setup
         uses: ./.github/actions/setup

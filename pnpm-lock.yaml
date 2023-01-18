@@ -5,7 +5,7 @@ specifiers:
   '@rescript/react': 0.10.3
   '@semantic-release/npm': 9.0.2
   '@testing-library/react': 13.4.0
-  '@tinymce/tinymce-react': 4.2.0
+  '@tinymce/tinymce-react': 4.3.0
   bs-jest-dom: 4.1.1
   bs-platform: 9.0.2
   http-proxy-middleware: 2.0.6
@@ -25,7 +25,7 @@ devDependencies:
   '@rescript/react': 0.10.3_biqbaboplfbrettd7655fr4n2y
   '@semantic-release/npm': 9.0.2_semantic-release@19.0.5
   '@testing-library/react': 13.4.0_biqbaboplfbrettd7655fr4n2y
-  '@tinymce/tinymce-react': 4.2.0_biqbaboplfbrettd7655fr4n2y
+  '@tinymce/tinymce-react': 4.3.0_biqbaboplfbrettd7655fr4n2y
   bs-jest-dom: 4.1.1_@glennsl+bs-jest@0.7.0
   bs-platform: 9.0.2
   http-proxy-middleware: 2.0.6
@@ -1788,8 +1788,8 @@ packages:
       '@testing-library/dom': 8.17.1
     dev: true
 
-  /@tinymce/tinymce-react/4.2.0_biqbaboplfbrettd7655fr4n2y:
-    resolution: {integrity: sha512-Oyi/hDvARR29oqUwTgYXDnMV9E/c7C8V+iK+gUj9tndVXsfSJRYVOw3MTK9CCC9f7alN/S4CYaPpIaA3f4VZzw==}
+  /@tinymce/tinymce-react/4.3.0_biqbaboplfbrettd7655fr4n2y:
+    resolution: {integrity: sha512-iB4cUsYfcJL4NGuKhqCGYuTmFTje3nPxyPv1HxprTsp/YMGuuiiSNWrv3zwI31QX5Cn8qeq9MrMDnbxuRugHyg==}
     peerDependencies:
       react: ^18.0.0 || ^17.0.1 || ^16.7.0
       react-dom: ^18.0.0 || ^17.0.1 || ^16.7.0

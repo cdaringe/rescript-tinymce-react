@@ -18,7 +18,7 @@ specifiers:
   rescript-react-testing-library: 1.3.0
   semantic-release: 19.0.5
   serve-static: 1.15.0
-  tinymce: 6.6.1
+  tinymce: 6.6.2
 
 devDependencies:
   '@glennsl/bs-jest': 0.7.0
@@ -38,7 +38,7 @@ devDependencies:
   rescript-react-testing-library: 1.3.0
   semantic-release: 19.0.5
   serve-static: 1.15.0
-  tinymce: 6.6.1
+  tinymce: 6.6.2
 
 packages:
 
@@ -1931,7 +1931,7 @@ packages:
       prop-types: 15.8.1
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0
-      tinymce: 6.6.1
+      tinymce: 6.6.2
     dev: true
 
   /@tootallnate/once/1.1.2:
@@ -6606,8 +6606,8 @@ packages:
     resolution: {integrity: sha512-qsdtZH+vMoCARQtyod4imc2nIJwg9Cc7lPRrw9CzF8ZKR0khdr8+2nX80PBhET3tcyTtJDxAffGh2rXH4tyU8A==}
     dev: true
 
-  /tinymce/6.6.1:
-    resolution: {integrity: sha512-n1ub/Jq6c5o2mju6A1HPFoR5/X7eH8720yDzLchg4MbKKJg6tthTGr+lBPHzQyrImwbfo7LVgx28mN5InzVMmw==}
+  /tinymce/6.6.2:
+    resolution: {integrity: sha512-ShoaznNP3qI8dPtEnYt3ByhAJfMhzIY1K04CoFu1IPDeAxmAZCUJLgfiplo8etP4wN8zrBIxHEqpwYYb2IllOQ==}
     dev: true
 
   /tmpl/1.0.5:

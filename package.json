@@ -30,7 +30,7 @@
     "@glennsl/bs-jest": "0.7.0",
     "@rescript/react": "0.12.1",
     "@semantic-release/npm": "9.0.2",
-    "@testing-library/react": "13.4.0",
+    "@testing-library/react": "14.3.0",
     "@tinymce/tinymce-react": "4.3.2",
     "bs-jest-dom": "4.1.1",
     "bs-platform": "9.0.2",

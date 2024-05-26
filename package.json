@@ -28,7 +28,7 @@
   },
   "devDependencies": {
     "@glennsl/bs-jest": "0.7.0",
-    "@rescript/react": "0.12.1",
+    "@rescript/react": "0.12.2",
     "@semantic-release/npm": "9.0.2",
     "@testing-library/react": "13.4.0",
     "@tinymce/tinymce-react": "4.3.2",

@@ -7,7 +7,7 @@ jobs:
     name: onchange
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2.7.0 # Necessary to access local action
+      - uses: actions/checkout@v4.1.7 # Necessary to access local action
       - name: setup
         id: setup
         uses: ./.github/actions/setup

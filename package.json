@@ -24,14 +24,14 @@
   "license": "MIT",
   "peerDependencies": {
     "@rescript/react": "*",
-    "@tinymce/tinymce-react": "^4"
+    "@tinymce/tinymce-react": "^4 || ^5.0.0"
   },
   "devDependencies": {
     "@glennsl/bs-jest": "0.7.0",
     "@rescript/react": "0.12.2",
     "@semantic-release/npm": "9.0.2",
     "@testing-library/react": "13.4.0",
-    "@tinymce/tinymce-react": "4.3.2",
+    "@tinymce/tinymce-react": "5.1.1",
     "bs-jest-dom": "4.1.1",
     "bs-platform": "9.0.2",
     "http-proxy-middleware": "2.0.6",

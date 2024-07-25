@@ -2,7 +2,7 @@ lockfileVersion: 5.4
 
 specifiers:
   '@glennsl/bs-jest': 0.7.0
-  '@rescript/react': 0.12.2
+  '@rescript/react': 0.13.0
   '@semantic-release/npm': 9.0.2
   '@testing-library/react': 13.4.0
   '@tinymce/tinymce-react': 4.3.2
@@ -22,7 +22,7 @@ specifiers:
 
 devDependencies:
   '@glennsl/bs-jest': 0.7.0
-  '@rescript/react': 0.12.2_nnrd3gsncyragczmpvfhocinkq
+  '@rescript/react': 0.13.0_nnrd3gsncyragczmpvfhocinkq
   '@semantic-release/npm': 9.0.2_semantic-release@19.0.5
   '@testing-library/react': 13.4.0_nnrd3gsncyragczmpvfhocinkq
   '@tinymce/tinymce-react': 4.3.2_nnrd3gsncyragczmpvfhocinkq
@@ -1683,8 +1683,8 @@ packages:
       config-chain: 1.1.13
     dev: true
 
-  /@rescript/react/0.12.2_nnrd3gsncyragczmpvfhocinkq:
-    resolution: {integrity: sha512-EOF19dLTG4Y9K59JqMjG5yfvIsrMZqfxGC2J/oe9gGgrMiUrzZh3KH9khTcR1Z3Ih0lRViSh0/iYnJz20gGoag==}
+  /@rescript/react/0.13.0_nnrd3gsncyragczmpvfhocinkq:
+    resolution: {integrity: sha512-YSIWIyMlyF9ZaP6Q3hScl1h3wRbdIP4+Cb7PlDt7Y1PG8M8VWYhLoIgLb78mbBHcwFbZu0d5zAt1LSX5ilOiWQ==}
     peerDependencies:
       react: '>=18.0.0'
       react-dom: '>=18.0.0'
